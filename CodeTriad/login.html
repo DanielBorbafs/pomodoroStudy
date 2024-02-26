@@ -43,14 +43,14 @@
                 <!-- Register -->
                 <div class="card">
                     <div class="card-body">
-
-
+                        <!-- Logo -->
+                        <img src="assets/img/icons/logo.svg" alt="">
                         <h4 class="mb-2">Bem vindo Professor(a) 👨‍🏫</h4>
-                        <p class="mb-4">Por favor, entre com seu login e senha</p>
+                        <p class="mb-4">Por favor, entre com sua matrícula e senha</p>
 
                         <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
                             <div class="mb-3">
-                                <label for="email" class="form-label">Login</label>
+                                <label for="email" class="form-label">Matrícula</label>
                                 <input type="text" class="form-control" id="matricula" name="login"
                                     placeholder="digite sua matrícula" autofocus />
                             </div>
@@ -109,15 +109,6 @@
                         // Quando a animação de fade-out estiver completa, redireciona para a próxima página
                         window.location.href = 'html/index.html';
                     }
-                });
-
-                // Adicione outra animação para o painel dashboard (assumindo que o painel tem a classe '.dashboard')
-                anime({
-                    targets: '.dashboard',
-                    opacity: [0, 1],
-                    duration: 800,
-                    easing: 'easeInOutQuad',
-                    delay: 500  // Aguarda 500 milissegundos antes de iniciar a animação do painel
                 });
             } else {
                 alert('Credenciais inválidas, tente novamente');
