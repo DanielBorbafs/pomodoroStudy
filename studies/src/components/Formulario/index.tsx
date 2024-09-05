@@ -33,7 +33,7 @@ class Formulario extends React.Component{
 
                 </div>
                 <Botao>
-                    teste
+                    Adicionar
                 </Botao>
             </form>
 
